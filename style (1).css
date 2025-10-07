@@ -1,0 +1,733 @@
+
+  body {
+    font-family: Arial, sans-serif;
+  background: #000000;
+  color: #ccb200;
+  margin: 0;
+  padding: 0;
+  }
+  
+ body::webkit-scrollbar{
+	 display:none;
+ }
+
+  nav {
+	position: absolute;
+	top: 2%;
+    display: flex;
+    gap: 35px;
+  }
+
+#home {
+	position: absolute;
+	top: 3.5%;
+	left: 43.5%;
+	font-size: 60px;
+}
+
+.Hcontent {
+	position: absolute;
+	left: 7%;
+	top: 20%;
+	font-size: 40px;
+}
+
+#about {
+	position: absolute;
+	top: 110%;
+	left: 44.5%;
+	font-size: 60px;
+}
+
+#portfolio {
+	position: absolute;
+	top: 215%;
+	left: 40%;
+	font-size: 60px;
+}
+
+.Pcontent1 {
+	position: absolute;
+	top: 230%;
+	left: 3%;
+}
+
+.Pcontent2 {
+	position: absolute;
+	top: 288.5%;
+	left: 2%;
+}
+
+.Pcontent3 {
+	position: absolute;
+	top: 288.5%;
+	left: 24%;
+}
+
+.Pcontent4 {
+	position: absolute;
+	top: 230%;
+	left: 47%;
+}
+
+#contact {
+	position: absolute;
+	top: 336.5%;
+	left: 0%;
+	font-size: 20px;
+}
+
+.Cplus .test{
+	left: 0.5%;
+	position: absolute;
+	top: 140%;
+	font-size: 30px;
+}
+
+#contents {
+	position: absolute;
+	top: 120.5%;
+	font-size: 30px;
+}
+.ALL {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bubble {
+  position: absolute;
+  top: -100px;
+  left: 5%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 10s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(340vh);
+    opacity: 0.2;
+  }
+}
+
+@keyframes rotate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}`
+
+.bubble1 {
+  position: absolute;
+  top: -100px;
+  left: 8%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 19s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble2 {
+  position: absolute;
+  top: -100px;
+  left: 11%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 14s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble4 {
+  position: absolute;
+  top: -100px;
+  left: 14%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 16s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble5 {
+  position: absolute;
+  top: -100px;
+  left: 17%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+.bubble6 {
+  position: absolute;
+  top: -100px;
+  left: 8%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 12s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble7 {
+  position: absolute;
+  top: -100px;
+  left: 11%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 14s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble8 {
+  position: absolute;
+  top: -100px;
+  left: 14%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 16s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble9 {
+  position: absolute;
+  top: -100px;
+  left: 17%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+.bubble10 {
+  position: absolute;
+  top: -100px;
+  left: 8%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 19s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble11 {
+  position: absolute;
+  top: -100px;
+  left: 11%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 10s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble12 {
+  position: absolute;
+  top: -100px;
+  left: 14%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 12s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble13 {
+  position: absolute;
+  top: -100px;
+  left: 17%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 16s linear infinite;
+  opacity: 0.8;
+}
+.bubble14 {
+  position: absolute;
+  top: -100px;
+  left: 8%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble15 {
+  position: absolute;
+  top: -100px;
+  left: 11%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+
+/* GAP */
+
+.bubble16 {
+  position: absolute;
+  top: -100px;
+  left: 14%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 11s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble17 {
+  position: absolute;
+  top: -100px;
+  left: 17%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 13s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble18 {
+  position: absolute;
+  top: -100px;
+  left: 20%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 15s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble19 {
+  position: absolute;
+  top: -100px;
+  left: 23%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble20 {
+  position: absolute;
+  top: -100px;
+  left: 26%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble21 {
+  position: absolute;
+  top: -100px;
+  left: 29%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 20s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble22 {
+  position: absolute;
+  top: -100px;
+  left: 32%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 11s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble23{
+  position: absolute;
+  top: -100px;
+  left: 35%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 13s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble24 {
+  position: absolute;
+  top: -100px;
+  left: 38%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 15s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble25 {
+  position: absolute;
+  top: -100px;
+  left: 41%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble26 {
+  position: absolute;
+  top: -100px;
+  left: 44%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble27 {
+  position: absolute;
+  top: -100px;
+  left: 47%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 20s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble28 {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 11s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble29 {
+  position: absolute;
+  top: -100px;
+  left: 53%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 13s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble30 {
+  position: absolute;
+  top: -100px;
+  left: 56%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 15s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble31 {
+  position: absolute;
+  top: -100px;
+  left: 59%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble32 {
+  position: absolute;
+  top: -100px;
+  left: 61%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 18s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble33 {
+  position: absolute;
+  top: -100px;
+  left: 64%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 20s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble34 {
+  position: absolute;
+  top: -100px;
+  left: 67%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 11s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble35 {
+  position: absolute;
+  top: -100px;
+  left: 70%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 13s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble36 {
+  position: absolute;
+  top: -100px;
+  left: 73%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 14s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble37 {
+  position: absolute;
+  top: -100px;
+  left: 76%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 16s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble38 {
+  position: absolute;
+  top: -100px;
+  left: 79%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble39 {
+  position: absolute;
+  top: -100px;
+  left: 81%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 19s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble40 {
+  position: absolute;
+  top: -100px;
+  left: 84%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 10s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble41 {
+  position: absolute;
+  top: -100px;
+  left: 87%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 12s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble42 {
+  position: absolute;
+  top: -100px;
+  left: 90%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 14s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble43 {
+  position: absolute;
+  top: -100px;
+  left: 91%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 16s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble44 {
+  position: absolute;
+  top: -100px;
+  left: 94%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 17s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble45 {
+  position: absolute;
+  top: -100px;
+  left: 97%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 19s linear infinite;
+  opacity: 0.8;
+}
+
+.bubble46 {
+  position: absolute;
+  top: -100px;
+  left: 99%;
+  width: 10px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFDD3;
+  animation: fall 9s linear infinite;
+  opacity: 0.8;
+}
+
+	nav {
+	position: sticky;
+	background: black;
+	z-index: 1000;
+	height: 40px;
+	}
+
+  nav a {
+	top: 50%;
+	left: 50%;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #b39c00;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow:
+      0 5px 0 #ccb200,
+      0 10px 15px rgba(225,225,0,0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+		
+  }
+
+  nav a:hover {
+	top: 50%;
+	left: 50%;
+    transform: translateY(-5px);
+    box-shadow:
+      0 10px 0 #e6c900,
+      0 15px 20px rgba(225,225,0,1);
+  }
+
+.under {
+  position: absolute;
+  top: 325%;
+  left: 1.5%;
+  text-align: center;
+  padding: 40px 0;
+  display: block;
+  background: black;
+}
+
+.under a {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #b39c00;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow:
+    0 5px 0 #ccb200,
+    0 10px 15px rgba(225,225,0,0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.under a:hover {
+  left: 0%;
+  transform: translateY(-5px);
+  box-shadow:
+    0 10px 0 #e6c900,
+    0 15px 20px rgba(225,225,0,1);
+}
